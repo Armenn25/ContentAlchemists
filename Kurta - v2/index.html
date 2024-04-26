@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="nav container">    
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li><a href="#home" class="nav_link">HOME</a></li>
+                    <li><a href="#about-us" class="nav_link">ABOUT US</a></li>
+                    <li><a href="#" class="nav_link">PRICING</a></li>
+                    <a href="#" class="logo">
+                        <img class="logo_slika" src="images/logozeleni250.png" alt="">
+                    </a>
+                    <li><a href="#" class="nav_link">GALLERY</a></li>
+                    <li><a href="#" class="nav_link">CONTACT US</a></li>
+                    <li><a href="#" class="nav_link">SERVICES</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <!-- Home Sekcija -->
+        <div class="home section"  id="home">
+            <div class="home_container container">
+                <div class="left">
+                    <div class="title">
+                        <h3 class="title_top font">CLIMBING CENTER</h3>
+                        <h1 class="title_bot font">VRT CIKLAMA</h1>
+                    </div>
+                    <div class="slogan">
+                        <p class="slogan font">
+                            "Climbing is our language, and the rocks are our canvas. In Drežnica, every route tells its story, and every peak is a new beginning."
+                        </p>
+                    </div>
+                    <div class="btn_div">
+                        <a href="#" class="hero_btn btn font">Join Us</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide" style="background-image:url('images/back1.jpg'); background-repeat: no-repeat; background-size: cover;">
+                        </div>
+                          <div class="swiper-slide" style="background-image:url('images/back2.jpg'); background-repeat: no-repeat; background-size: cover;">  
+                        </div>
+                          <div class="swiper-slide s3" style="background-image:url('images/back3.jpg'); background-repeat: no-repeat; background-size: cover;">                           
+                        </div>
+                        
+                          <!-- Dodaj više slide-ova po potrebi -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="about_us section" id="about-us">
+            <div class="waves">
+                <img style=" transform: rotate(180deg);" src="images/wave.png" alt="" />  
+                <img src="images/wave1.png" alt="">
+            </div>
+            <div class="about_us_container container">
+                <div class="separator">
+                    <span class="leftt"></span>
+                    <span class="midd"></span>
+                    <span class="leftt rightt"></span>
+                </div>
+                <div class="about_data">
+                    
+                    <div class="right1">
+                        <h1 class="about_title">Our Story</h1>
+                        <p class="p1">Welcome to the "Vrt CIKLAMA" Climbing Center - your destination for adventure and challenge! Located in the heart of nature, our center offers an exceptional climbing experience for all ages and skill levels. Founded with a vision of promoting a healthy lifestyle and a love for outdoor activities, "Vrt CIKLAMA" is the place where you can test your limits, learn new skills, and truly enjoy the thrills of climbing.</p>
+                        <p class="p2">Pridružite nam se u "Vrtu ciklama" i doživite penjanje na potpuno novi način. Bilo da ste u potrazi za novim hobijem ili želite izgraditi svoje penjačke vještine, naš centar je idealno mjesto za vas. Otkrijte svoj novi omiljeni izazov - vidimo se na vrhu!</p>
+                        <div class="p3"><a href="#" class="see_more">See more</a></div>
+                    </div>
+                </div>
+                <div class="separator separator_bot">
+                    <span class="leftt"></span>
+                    <span class="midd"></span>
+                    <span class="leftt rightt"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="java.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</body>
+</html>
