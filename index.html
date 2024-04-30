@@ -3,108 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Content Alchemists</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo3.png" />
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "kz4BzRApnhhbWRgCB",
+  });
+})();
+</script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Handlee&display=swap');
+    </style>
 </head>
 <body>
     <header class="header" id="header">
-        <div class="nav container">    
-            <div class="nav_menu" id="nav-menu">
+        <div class="nav container">
+            <div class="name">
+                <img class="logo logo1" id="slika" src="images/mainlogo.png" alt="" />
+            </div>
+
+            <div class="nav_menu " id="nav-menu">
                 <ul class="nav_list">
-                    <li><a href="#home" class="nav_link">HOME</a></li>
-                    <li><a href="#about-us" class="nav_link">ABOUT US</a></li>
-                    <li><a href="#" class="nav_link">PRICING</a></li>
-                    <a href="#" class="logo">
-                        <img class="logo_slika" src="images/logozeleni250.png" alt="">
-                    </a>
-                    <li><a href="#" class="nav_link">GALLERY</a></li>
-                    <li><a href="#" class="nav_link">CONTACT US</a></li>
-                    <li><a href="#" class="nav_link">SERVICES</a></li>
+                    <li><div class="line"></div><a class="nav__link" href="#home">Home</a></li>
+                    <li><div class="line"></div><a class="nav__link" href="#about-us">About Us</a></li>
+                    <li><div class="line"></div><a class="nav__link" href="#team">Team</a></li>
+                    <div class="nav_link">
+                        <a href="#footer">CONTACT US</a>
+                    </div>
                 </ul>
                 <div class="nav__close" id="nav-close">
                     <i class="ri-close-line"></i>
                 </div>
             </div>
-            
-            
             <div class="nav__toggle" id="nav-toggle">
                 <i class="ri-menu-line"></i>
             </div>
         </div>
     </header>
     <main class="main">
-        <!-- Home Sekcija -->
-        <div class="home section"  id="home">
+        <section class="home section" id="home">
             <div class="home_container container">
-                <div class="left">
-                    <div class="title">
-                        <h3 class="title_top font">CLIMBING CENTER</h3>
-                        <h1 class="title_bot font">VRT CIKLAMA</h1>
+                <div class="mid">
+                    <div class="hero_title">
+                        <h1 class="c">CONTENT</h1>
+                        <h2 class="a">ALCHEMISTS</h2>
                     </div>
-                    <div class="slogan">
-                        <p class="slogan font">
-                            "Climbing is our language, and the rocks are our canvas. In Drežnica, every route tells its story, and every peak is a new beginning."
-                        </p>
-                    </div>
-                    <div class="btn_div">
-                        <a href="#" class="hero_btn btn font">Join Us</a>
-                    </div>
+                    <p class="slogan">Crafting digital gold ✨ with every post. 
+                         We're the Content Alchemists! 
+                          Transforming ideas into captivating content.</p>
+                         <div class="animacija"><a href="#about-us" class="btn tipka">About Us</a></div>
                 </div>
-                <div class="right">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide" style="background-image:url('images/back1.jpg'); background-repeat: no-repeat; background-size: cover;">
+                <img class="hero_img" src="images/alhemicar_zlato.png" alt="">
+            </div>
+        </section>
+        <section class="about_us section" id="about-us">
+            <div class="about_us_container container">
+                <div class="slika">
+                    <img src="images/about_usv2b.png" alt="">
+                </div>
+                <div class="r_side">
+                    <h1 class="title">OUR MISSION :</h1>
+                    <p class="opis">
+                        Welcome to the world of Content Alchemists, where we turn your 
+                        ideas into gold! We are a team of passionate creatives and digital 
+                        strategists dedicated to transforming your content and brand into
+                        something that not only captures attention but also leaves a lasting 
+                        impression. Through a blend of innovation, expertise, and the magic
+                        of digital marketing, we create memorable stories and strategies 
+                        that deliver results. Whether it's content writing, visual 
+                        creativity, or digital strategy, we are here to provide your
+                        audience with an unforgettable experience. We believe in the
+                        power of content - not just to inform and engage, but to inspire and 
+                        transform. Because your success is not just our job; it's our passion.
+                        Together, we can create the alchemy that changes the game.
+                    </p>
+                    <div class="animacija1"><a href="#team" class="btn btn1 ">Who Are We?</a></div>
+                </div>
+            </div>
+        </section>
+        <div class="shapedividers_com-4589"></div>
+        <div class="shapedividers_com-832"></div>
+        <section class="team section" id="team">
+            <div class="team_container container">
+                <h1 class="title team_title">MEET OUR TEAM:</h1>  
+                <div class="f_row">
+                    <div class="card card1">
+                        <div class="team_hover">
+                            <img class="slika_team" src="images/Kolicic_Armen.jpg" alt="">
+                            <div class="shadow1">
+                                    <h1 class="hover_ime blue">Armen Količić</h1>
+                                    <p class="hover_info">
+                                        Hello! I am Armen Količić, founder and CEO of Content Alchemists.
+                                        I love coding and painting
+                                    </p>
+                                    <div class="social">
+                                        <a href="https://www.facebook.com/armen.kolicic.5" target="_blank" class="social_links blue">
+                                            <i class="ri-facebook-circle-fill"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/_armenn_2_/" target="_blank" class="social_links blue">
+                                            <i class="ri-instagram-line"></i>                                        
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/armen-koli%C4%8Di%C4%87-4905882bb/5" target="_blank" class="social_links blue">
+                                            <i class="ri-linkedin-fill"></i>                                        </a>    
+                                    </div>
+                            </div>
                         </div>
-                          <div class="swiper-slide" style="background-image:url('images/back2.jpg'); background-repeat: no-repeat; background-size: cover;">  
+                        <div class="info">
+                            <h4 class="ime">ARMEN KOLIČIĆ</h4>
+                            <h4 class="ime ime1">Chief Executive Officer</h4>
+                            <h4 class="ime ime1">Front End developer</h4>
                         </div>
-                          <div class="swiper-slide s3" style="background-image:url('images/back3.jpg'); background-repeat: no-repeat; background-size: cover;">                           
-                        </div>
-                        
-                          <!-- Dodaj više slide-ova po potrebi -->
-                        </div>
-                        <div class="swiper-pagination"></div>
                         
                     </div>
+                    <div class="card card2">
+                        <div class="team_hover">
+                            <img class="slika_team" src="images/Krhan_Nidal.jpg" alt="">
+                            <div class="shadow1">
+                                <h1 class="hover_ime red">Nidal Krhan</h1>
+                                <p class="hover_info">
+                                    Hello! I am Nidal Krhan, social media manager at Content Alchemists.
+                                    I am football and technology enthusiast. 
+                                </p>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/nidalkrhan" target="_blank" class="social_links red">
+                                        <i class="ri-facebook-circle-fill"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/nidalk_/" target="_blank" class="social_links red">
+                                        <i class="ri-instagram-line"></i>                                        </a>
+                                </div>
+                            
+                        </div>
+                        </div>
+                        <div class="info">
+                            <h4 class="ime">NIDAL KRHAN</h4>
+                            <h4 class="ime ime1">Social Media Manager</h4>
+                            <h4 class="ime ime1">Front End developer</h4>
+                        </div>
+                        <div class="text">
+                        </div>
+                    </div>
+                    <div class="card card3">
+                        <div class="team_hover">
+                            <img class="slika_team " src="images/Turkic_Eldar.jpg" alt="">
+                            <div class="shadow1">
+                                <h1 class="hover_ime green">Eldar Turkić</h1>
+                                <p class="hover_info">
+                                    Hello! I am Eldar Turkić, Finance manager at Content Alchemists.
+                                    I am a perfectionist and technology enthusiast. 
+                                </p>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/eldarturkic1" target="_blank" class="social_links green">
+                                        <i class="ri-facebook-circle-fill"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/eldarturkic/" target="_blank" class="social_links green">
+                                        <i class="ri-instagram-line"></i>                                        </a>
+                                        <a href="https://www.linkedin.com/in/eldar-turkic-269a9b281/" target="_blank" class="social_links green">
+                                            <i class="ri-linkedin-fill"></i>                                        </a>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4 class="ime">ELDAR TURKIĆ</h4>
+                            <h4 class="ime ime1">Finance Manager</h4>
+                            <h4 class="ime ime1">Customer Service</h4>
+                        </div>
+                        
+                    </div>
+                    <div class="card card4">
+                        <div class="team_hover">
+                            <img class="slika_team" src="images/Isic_Faruk.jpg" alt="">
+                            <div class="shadow1">
+                                <h1 class="hover_ime yellow">Faruk Isić</h1>
+                                <p class="hover_info">
+                                    Hello! I am Faruk Isić, PR representative at Content Alchemists.
+                                    I am a communicative person, I also like to play chess                                </p>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/profile.php?id=100014666461515" target="_blank" class="social_links yellow">
+                                        <i class="ri-facebook-circle-fill"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/faruk_369/" target="_blank" class="social_links yellow">
+                                        <i class="ri-instagram-line"></i>         
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4 class="ime">FARUK ISIĆ</h4>
+                            <h4 class="ime ime1">PR Representative</h4>
+                            <h4 class="ime ime1">Video Editor</h4>
+                        </div>
+                    </div>
+                    <div class="card card5">
+                        <div class="team_hover">
+                            <img class="slika_team" src="images/Saric_Haris.jpg" alt="">
+                            <div class="shadow1">
+                                <h1 class="hover_ime">Haris Šarić</h1>
+                                <p class="hover_info">
+                                    Hello! I am Haris Šarić, Data analyst at Content Alchemists.
+                                    I like fishing and exploring nature. 
+                                </p>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/haris.saric.12" target="_blank" class="social_links">
+                                        <i class="ri-facebook-circle-fill"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/haaris__17/" target="_blank" class="social_links">
+                                        <i class="ri-instagram-line"></i>                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4 class="ime">HARIS ŠARIĆ</h4>
+                            <h4 class="ime ime1">Data Analyst</h4>
+                            <h4 class="ime ime1">Sponsor</h4>
+                        </div>
+                        
+                    </div>
+                    <div class="card card6">
+                        <div class="team_hover">
+                            <img class="slika_team" src="images/Kurtovic_Aid.jpg" alt="">
+                            <div class="shadow1">
+                                <h1 class="hover_ime pink">Aid Kurtović</h1>
+                                <p class="hover_info">
+                                    Hello! I am Aid Kurtović, Photographer at Content Alchemists.
+                                    I like electronics and cars. 
+                                </p>
+                                <div class="social">
+                                    <a href="https://www.facebook.com/aid.kurtovic.5" target="_blank" class="social_links pink">
+                                        <i class="ri-facebook-circle-fill"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/aid_kurtovic/" target="_blank" class="social_links pink">
+                                        <i class="ri-instagram-line"></i>                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4 class="ime">AID KURTOVIĆ</h4>
+                            <h4 class="ime ime1">Photographer</h4>
+                            <h4 class="ime ime1">Customer Support</h4>
+                        </div>
+                        <div class="text">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+    <footer class="footer section" id="footer">
+        <div class="footer_container container">
+            <div class="contact_form">
+                <div class="footer_name">
+                    <a href="#home" class="logo logo2">
+                        <img src="images/mainlogo.png" alt="" class="logo">
+                    </a>
+                    <div class="footer_contact_info">
+                        <a href="#home" class="name">CONTENT ALCHEMISTS</a>
+                        <p class="footer_form_name name">CONTACT US :</p>
+                    </div>
+                    
+                </div>
+                <form id="contact-form" class="forma" onsubmit="sendMail(event)">
+                    <input type="text" id="name" name="user_name" class="footer_input" placeholder="Name"/>
+                    <span id="name-error" class="error"><i class="ri-error-warning-line"></i> This field is required.</span>
+                    <input type="email" id="email" name="user_email" placeholder="Email" class="footer_input">
+                    <span id="email-error" class="error"><i class="ri-error-warning-line"></i> This field is required</span>
+                    <textarea name="message" id="message" class="msg footer_input" placeholder="Message"></textarea>
+                    <span id="message-error" class="error"><i class="ri-error-warning-line"></i> This field is required</span>
+                    <button type="submit" class="btn footer_btn">Send Message</button>
+                </form>
+            </div>
+            <div class="footer_content">
+                <div class="footer_card">
+                <h3 class="footer_title">NAVIGATION</h3>
+                <ul class="footer_links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
                 </div>
             </div>
         </div>
         
-        <div class="about_us section" id="about-us">
-            <div class="waves">
-                <img style=" transform: rotate(180deg);" src="images/wave.png" alt="" />  
-                <img src="images/wave1.png" alt="">
-            </div>
-            <div class="about_us_container container">
-                <div class="separator">
-                    <span class="leftt"></span>
-                    <span class="midd"></span>
-                    <span class="leftt rightt"></span>
-                </div>
-                <div class="about_data">
+        <div class="container ">
+            <div class="footer_group">
+                 <ul class="footer_social">
                     
-                    <div class="right1">
-                        <h1 class="about_title">Our Story</h1>
-                        <p class="p1">Welcome to the "Vrt CIKLAMA" Climbing Center - your destination for adventure and challenge! Located in the heart of nature, our center offers an exceptional climbing experience for all ages and skill levels. Founded with a vision of promoting a healthy lifestyle and a love for outdoor activities, "Vrt CIKLAMA" is the place where you can test your limits, learn new skills, and truly enjoy the thrills of climbing.</p>
-                        <p class="p2">Pridružite nam se u "Vrtu ciklama" i doživite penjanje na potpuno novi način. Bilo da ste u potrazi za novim hobijem ili želite izgraditi svoje penjačke vještine, naš centar je idealno mjesto za vas. Otkrijte svoj novi omiljeni izazov - vidimo se na vrhu!</p>
-                        <div class="p3"><a href="#" class="see_more">See more</a></div>
-                    </div>
-                </div>
-                <div class="separator separator_bot">
-                    <span class="leftt"></span>
-                    <span class="midd"></span>
-                    <span class="leftt rightt"></span>
-                </div>
+                    <a href="https://padlet.com/evaluacija/fit-marketari-hw9udvn89ljkoo6o/wish/2912325308" target="_blank" class="footer_social-link padlet lh">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 100 100">
+                          <g><polygon fill="#96ba45" points="76.548,53.31 71.252,50.825 72.838,48.41"></polygon><path fill="#eb06a3" d="M62.718,57.054c0.011-0.021,0.011-0.053,0.011-0.075c0-0.085-0.021-0.17-0.053-0.255L60.61,51.7 l6.151-3.842h5.619L60.419,66.122l2.288-8.929C62.718,57.15,62.718,57.107,62.718,57.054z"></path><polygon fill="#eb06a3" points="50.5,62.372 50.5,68.586 43.616,69.727 41.43,58.093"></polygon><polygon fill="#96ba45" points="61.42,57.994 58.409,69.706 51.5,68.57 51.5,62.391"></polygon><polygon fill="#eb06a3" points="61.473,56.883 51.377,61.362 51.377,32.408"></polygon><polygon fill="#96ba45" points="50.754,32.235 50.754,61.784 41.316,57.325"></polygon><path fill="#96ba45" d="M40.348,57.452l1.585,8.447L26.677,42.611l15.756,8.979l-2.043,5.458 c-0.011,0.021,0,0.043-0.011,0.064c-0.021,0.096-0.032,0.191-0.021,0.277C40.358,57.409,40.348,57.431,40.348,57.452z"></path><path fill="#472b29" d="M77.84,52.85l-4.2-5.56c-0.14-0.18-0.34-0.28-0.56-0.28h-6.54c-0.13,0-0.26,0.04-0.37,0.11 l-5.75,3.59l-8.77-21.26c-0.11-0.27-0.37-0.44-0.65-0.44h-0.01c-0.29,0.01-0.54,0.19-0.65,0.46l-7.88,20.96l-16.39-9.34 c-0.34-0.19-0.77-0.08-0.96,0.26c-0.13,0.23-0.11,0.51,0.03,0.72v0.01l0.01,0.01c0.01,0.01,0.02,0.03,0.03,0.04l16.79,25.63 l0.5,2.64c0.06,0.33,0.35,0.57,0.68,0.57c0.04,0,0.08,0,0.12-0.01L51,69.68l7.73,1.28c0.37,0.07,0.7-0.16,0.79-0.52L60,68.58 l11.35-17.33l5.6,2.64c0.02,0.01,0.04,0.01,0.06,0.02l0.01,0.01c0.03,0.01,0.07,0.02,0.1,0.02c0.06,0.01,0.11,0.04,0.16,0.04 c0.15,0,0.29-0.05,0.42-0.15C78.01,53.6,78.07,53.16,77.84,52.85z M27.15,43.31l14.81,8.44l-1.92,5.13c-0.01,0.02,0,0.04-0.01,0.06 c-0.02,0.09-0.03,0.18-0.02,0.26c0,0.02-0.01,0.04-0.01,0.06l1.49,7.94L27.15,43.31z M50.3,68.38l-6.58,1.09l-2.09-11.12l8.67,4.09 V68.38z M50.5,60.99l-8.93-4.22l8.93-23.74V60.99z M51.5,32.76l9.85,23.88l-9.85,4.37V32.76z M58.33,69.47l-6.63-1.09v-5.93 l9.52-4.22L58.33,69.47z M60.78,65.57l2.15-8.39c0.01-0.04,0.01-0.08,0.01-0.13c0.01-0.02,0.01-0.05,0.01-0.07 c0-0.08-0.02-0.16-0.05-0.24l-1.94-4.72l5.78-3.61h5.28L60.78,65.57z M71.63,50.83l1.36-2.07l3.18,4.2L71.63,50.83z"></path></g>
+                            </svg>
+                    </a>
+                    <a href="https://www.instagram.com/content.alchemists/" target="_blank" class="footer_social-link lh">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </ul>
+
+                <span class="footer_copy">
+                    &#169; Copyright Armen Količić. All rights reserved
+                </span>
             </div>
         </div>
-    </main>
-    <script src="java.js"></script>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="java.js"></script>
 </body>
 </html>
